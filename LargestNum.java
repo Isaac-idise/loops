@@ -7,7 +7,7 @@ public class LargestNum {
 
         int largest = 0;
 
-      for (int counter = 1; counter <= 10; counter++) {
+        for (int counter = 1; counter <= 10; counter++) {
           System.out.print("Enter number: ");
           int number = scanner.nextInt();
 

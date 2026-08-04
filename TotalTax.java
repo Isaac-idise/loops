@@ -18,12 +18,12 @@ public class TotalTax {
             else if(earnings > 30000) {
                 double rate = 0.2;
                 double Total_tax = earnings * rate;
-                System.out.println("The Total tax is: " + Total_tax);
+                System.out.println(name + "'s total tax is: " + Total_tax);
             }
             else {
                 double rate = 0.15;
                 double Total_tax = earnings * rate;
-                System.out.println("The Total tax is: " + Total_tax);
+                System.out.println(name + "'s total tax is: " + Total_tax);
                     }
                 }
             }
